@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+  .nav_menu {
+    display: none !important;
+  }
+  .main-para {
+    font-size: 21px !important;
+  }
+  .main-text {
+    font-size: 28px;
+  }
+  .device1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-top: 13px;
+  }
+  .linkedin {
+    padding: 60px 0;
+  }
+  .link-dev-para {
+    margin-top: 35px;
+  }
+  .getLink {
+    text-align: center;
+  }
+  .btn-dev {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -22px;
+  }
+  .btn-dev button {
+    font-size: 13px;
+    padding: 5px 15px !important;
+  }
+  .modal-content {
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .download {
+    font-size: 7.9px;
+  }
+  .bm-burger-button {
+    display: none !important;
+  }
+  .header {
+    padding: 0 14px !important;
+  }
+  .arrow-down {
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    bottom: -400px;
+  }
+  .hide {
+    display: none;
+  }
+}

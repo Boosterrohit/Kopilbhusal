@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Cabin+Sketch:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Handjet:wght@100;200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.resume {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.315),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../Image/resumebg.jpg");
+  position: relative;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  background-position: center 100%;
+}
+.content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content h1,
+.content1 h1 {
+  font-size: 59px !important;
+}
+.resume-step2 {
+  font-family: "Raleway", sans-serif;
+}
+.hearder-portfolio {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.315),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../Image/portfolio.webp");
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  background-position: center 100%;
+}
+.content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-model {
+  background-color: rgba(248, 227, 199, 0.24);
+}
+.image:hover {
+  opacity: 0.7;
+}
+.modal-content {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -65%);
+}
+
+.image {
+  border-radius: 10px;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+}
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.ff:hover .caption {
+  display: block;
+  top: 50%;
+  transition: 1s;
+  transform: translate(-50%);
+}
+.modal-content {
+  width: 85%;
+}
+.contact {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.315),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../Image/contack.jpg");
+  position: relative;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  background-position: center 50%;
+}
+.conten1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.conten1 h1 {
+  font-size: 70px !important;
+}
+.form-label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.form-check-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.invalid-feedback {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.contp1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(73, 73, 73);
+}
+.conth1 {
+  font-family: "Poppins", sans-serif;
+}
